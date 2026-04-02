@@ -212,6 +212,7 @@ export function initUI(
   document.addEventListener('mouseup', onPointerUp);
   document.addEventListener('touchmove', onPointerMove, { passive: false });
   document.addEventListener('touchend', onPointerUp);
+  document.addEventListener('touchcancel', onPointerUp);
 
   document.getElementById('stock-pile')!.addEventListener('click', onDeal);
   document.getElementById('undo-btn')!.addEventListener('click', onUndo);
@@ -242,14 +243,12 @@ function renderTableau(state: GameState): void {
       colEl.classList.add('empty-col');
     }
 
+    let topOffset = 0;
     col.forEach((card, cardIdx) => {
       const cardEl = buildCardElement(card, colIdx, cardIdx);
 
-      let topOffset = 0;
-      for (let k = 0; k < cardIdx; k++) {
-        topOffset += col[k].faceUp ? overlapFaceUp : overlapFaceDown;
-      }
       cardEl.style.top = `${topOffset}px`;
+      topOffset += card.faceUp ? overlapFaceUp : overlapFaceDown;
 
       if (card.faceUp) {
         cardEl.addEventListener('mousedown', onPointerDown);

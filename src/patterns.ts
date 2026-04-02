@@ -8,6 +8,9 @@ export async function loadPatterns(difficulty: Difficulty): Promise<Pattern[]> {
 
 export async function getRandomPattern(difficulty: Difficulty): Promise<Pattern> {
   const patterns = await loadPatterns(difficulty);
+  if (patterns.length === 0) {
+    throw new Error(`No patterns available for difficulty: ${difficulty}`);
+  }
   const idx = Math.floor(Math.random() * patterns.length);
   return patterns[idx];
 }

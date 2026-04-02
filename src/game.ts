@@ -18,7 +18,6 @@ export function createGameFromPattern(pattern: Pattern): GameState {
     stock,
     foundation: [],
     moves: 0,
-    stockDealsLeft: stock.length,
   };
 }
 
@@ -98,7 +97,6 @@ export function dealFromStock(state: GameState): GameState {
     ...state,
     tableau: newTableau,
     stock: newStock,
-    stockDealsLeft: newStock.length,
     moves: state.moves + 1,
   };
   

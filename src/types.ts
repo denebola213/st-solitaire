@@ -13,7 +13,6 @@ export interface GameState {
   stock: Card[][];
   foundation: Card[][];
   moves: number;
-  stockDealsLeft: number;
 }
 
 export interface Pattern {
