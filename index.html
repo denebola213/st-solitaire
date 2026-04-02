@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spider Solitaire</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="difficulty-screen">
+    <h1>Spider Solitaire</h1>
+    <p>Select difficulty:</p>
+    <div class="difficulty-buttons">
+      <button data-difficulty="easy">Easy<br/><small>1 suit</small></button>
+      <button data-difficulty="medium">Medium<br/><small>2 suits</small></button>
+      <button data-difficulty="hard">Hard<br/><small>4 suits</small></button>
+    </div>
+  </div>
+
+  <div id="game-screen" style="display:none">
+    <header id="game-header">
+      <div class="stats">
+        <span>Moves: <strong id="move-count">0</strong></span>
+        <span>Stock: <strong id="stock-count">5</strong></span>
+        <span>Completed: <strong id="foundation-count">0</strong>/8</span>
+      </div>
+      <div class="header-buttons">
+        <button id="undo-btn">Undo</button>
+        <button id="new-game-btn">New Game</button>
+      </div>
+    </header>
+    <div id="game-area">
+      <div id="tableau"></div>
+      <div id="side-panel">
+        <div id="stock-pile" title="Click to deal"></div>
+        <div id="foundation-area"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="win-dialog" style="display:none">
+    <div class="win-content">
+      <h2>🎉 You Win! 🎉</h2>
+      <p id="win-moves"></p>
+      <button id="play-again-btn">Play Again</button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

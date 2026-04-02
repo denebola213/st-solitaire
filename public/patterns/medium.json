@@ -1,0 +1,4542 @@
+[
+  {
+    "id": "medium-0",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-1",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-2",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-3",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-4",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-5",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-6",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-7",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-8",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ]
+    ]
+  },
+  {
+    "id": "medium-9",
+    "difficulty": "medium",
+    "tableau": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 5
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        }
+      ]
+    ],
+    "stock": [
+      [
+        {
+          "suit": "hearts",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 2
+        },
+        {
+          "suit": "hearts",
+          "rank": 4
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "hearts",
+          "rank": 7
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 3
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 11
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        },
+        {
+          "suit": "hearts",
+          "rank": 1
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        }
+      ],
+      [
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "hearts",
+          "rank": 13
+        },
+        {
+          "suit": "spades",
+          "rank": 13
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        },
+        {
+          "suit": "hearts",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 5
+        },
+        {
+          "suit": "hearts",
+          "rank": 10
+        },
+        {
+          "suit": "spades",
+          "rank": 4
+        }
+      ],
+      [
+        {
+          "suit": "hearts",
+          "rank": 9
+        },
+        {
+          "suit": "spades",
+          "rank": 1
+        },
+        {
+          "suit": "hearts",
+          "rank": 6
+        },
+        {
+          "suit": "spades",
+          "rank": 11
+        },
+        {
+          "suit": "spades",
+          "rank": 8
+        },
+        {
+          "suit": "spades",
+          "rank": 7
+        },
+        {
+          "suit": "hearts",
+          "rank": 2
+        },
+        {
+          "suit": "spades",
+          "rank": 12
+        },
+        {
+          "suit": "spades",
+          "rank": 6
+        },
+        {
+          "suit": "hearts",
+          "rank": 3
+        }
+      ]
+    ]
+  }
+]

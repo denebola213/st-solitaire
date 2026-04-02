@@ -1,0 +1,16 @@
+{
+  "name": "spider-solitaire",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "generate-patterns": "node --loader ts-node/esm scripts/generate-patterns.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
