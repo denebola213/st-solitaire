@@ -449,5 +449,6 @@ body {
 
   #tableau {
     gap: 4px;
+    min-height: 0;
   }
 }
