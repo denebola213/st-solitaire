@@ -60,7 +60,7 @@ export function computeAndSetCardSize(): void {
     const maxMobileCardWidth = Math.max(1, Math.floor((vw - 48) / 10));
     // Keep 10 columns visible on narrow screens; only enforce the minimum
     // when it does not cause the tableau to overflow horizontally.
-    cardWidth = Math.min(minLegibleCardWidth, maxMobileCardWidth);
+    cardWidth = Math.max(minLegibleCardWidth, maxMobileCardWidth);
   } else {
     // Row layout: side-panel (card-width + 8px) + gap 12px + tableau (10*card-width + 9*6px) + padding 24px
     // total = 11 * card-width + 98  =>  card-width = (vw - 98) / 11
