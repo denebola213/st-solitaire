@@ -3,6 +3,8 @@
 ブラウザで動作する Spider Solitaire（スパイダーソリティア）の静的 Web アプリです。  
 Vite + TypeScript（フレームワークなし）で構築されており、任意の静的ホスティングサービスにデプロイできます。
 
+https://denebola213.github.io/st-solitaire/
+
 ---
 
 ## 目次
