@@ -49,7 +49,7 @@ function getCSSInt(varName: string, fallback: number): number {
 
 export function computeAndSetCardSize(): void {
   const root = document.documentElement;
-  const vw = window.innerWidth;
+  const vw = root.clientWidth || window.innerWidth;
   const isMobile = vw <= 768;
 
   let cardWidth: number;
