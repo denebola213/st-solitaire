@@ -14,6 +14,12 @@ function fisherYatesShuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+/**
+ * 指定された難易度でカードのパターンをランダムに生成する。
+ *
+ * @param difficulty - 難易度（'easy' | 'medium' | 'hard'）
+ * @param index - 生成されたパターンのID文字列に使う連番。シャッフルには影響しない。
+ */
 export function generatePattern(difficulty: Difficulty, index: number): Pattern {
   let suits: Suit[];
   if (difficulty === 'easy') {
