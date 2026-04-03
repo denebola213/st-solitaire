@@ -17,12 +17,12 @@ function showScreen(id: string): void {
 async function startGame(difficulty: Difficulty): Promise<void> {
   history = [];
   try {
-    const pattern = await getRandomPattern(difficulty);
+    const pattern = getRandomPattern(difficulty);
     currentState = createGameFromPattern(pattern);
     showScreen('game-screen');
     renderGame(currentState);
   } catch (err) {
-    console.error('Failed to load game pattern:', err);
+    console.error('Failed to generate game pattern:', err);
     alert('Failed to load game. Please try again.');
   }
 }
