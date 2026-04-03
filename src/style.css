@@ -245,6 +245,7 @@ body {
   gap: 12px;
   width: calc(var(--card-width) + 8px);
   flex-shrink: 0;
+  order: 1;
 }
 
 #stock-pile {
@@ -432,7 +433,6 @@ body {
   }
 
   #side-panel {
-    order: -1;
     flex-direction: row;
     width: 100%;
     gap: 6px;
