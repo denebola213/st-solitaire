@@ -33,6 +33,16 @@ interface DragState {
 
 let dragState: DragState | null = null;
 
+const DOUBLE_TAP_DELAY = 300; // ms
+
+interface LastTap {
+  col: number;
+  idx: number;
+  time: number;
+}
+
+let lastTap: LastTap | null = null;
+
 function getClientXY(e: MouseEvent | TouchEvent): { x: number; y: number } {
   if ('touches' in e && e.touches.length > 0) {
     return { x: e.touches[0].clientX, y: e.touches[0].clientY };
@@ -162,6 +172,39 @@ function clearHighlights(): void {
   document.querySelectorAll('.valid-target').forEach(el => el.classList.remove('valid-target'));
 }
 
+function onDoubleClickCard(fromCol: number, fromIdx: number): void {
+  if (!currentState || !onMoveCallback) return;
+
+  const validTargets: number[] = [];
+  for (let toCol = 0; toCol < currentState.tableau.length; toCol++) {
+    if (isValidMove(currentState, fromCol, fromIdx, toCol)) {
+      validTargets.push(toCol);
+    }
+  }
+
+  if (validTargets.length === 0) return;
+
+  const rightTargets = validTargets.filter(col => col > fromCol);
+  const toCol = rightTargets.length > 0 ? rightTargets[0] : validTargets[0];
+
+  onMoveCallback(fromCol, fromIdx, toCol);
+}
+
+function onDblClick(e: MouseEvent): void {
+  const target = e.target as HTMLElement;
+  const cardEl = target.closest<HTMLElement>('.card.face-up[data-col]');
+  if (!cardEl || !currentState) return;
+
+  const fromCol = parseInt(cardEl.dataset.col!);
+  const fromIdx = parseInt(cardEl.dataset.idx!);
+  const col = currentState.tableau[fromCol];
+
+  const seqStart = getMovableSequenceStart(col);
+  if (seqStart < 0 || fromIdx < seqStart) return;
+
+  onDoubleClickCard(fromCol, fromIdx);
+}
+
 function onPointerDown(e: MouseEvent | TouchEvent): void {
   const target = e.target as HTMLElement;
   const cardEl = target.closest<HTMLElement>('.card.face-up[data-col]');
@@ -173,6 +216,22 @@ function onPointerDown(e: MouseEvent | TouchEvent): void {
 
   const seqStart = getMovableSequenceStart(col);
   if (seqStart < 0 || fromIdx < seqStart) return;
+
+  if ('touches' in e) {
+    const now = Date.now();
+    if (
+      lastTap &&
+      lastTap.col === fromCol &&
+      lastTap.idx === fromIdx &&
+      now - lastTap.time <= DOUBLE_TAP_DELAY
+    ) {
+      lastTap = null;
+      e.preventDefault();
+      onDoubleClickCard(fromCol, fromIdx);
+      return;
+    }
+    lastTap = { col: fromCol, idx: fromIdx, time: now };
+  }
 
   const cards = col.slice(fromIdx);
   const { x, y } = getClientXY(e);
@@ -288,6 +347,7 @@ function renderTableau(state: GameState): void {
       if (card.faceUp) {
         cardEl.addEventListener('mousedown', onPointerDown);
         cardEl.addEventListener('touchstart', onPointerDown, { passive: false });
+        cardEl.addEventListener('dblclick', onDblClick);
       }
 
       colEl.appendChild(cardEl);
