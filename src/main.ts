@@ -1,7 +1,7 @@
 import type { Difficulty, GameState } from './types';
 import { createGameFromPattern, makeMove, dealFromStock, isGameWon } from './game';
 import { getRandomPattern } from './patterns';
-import { initUI, renderGame } from './ui';
+import { initUI, renderGame, computeAndSetCardSize } from './ui';
 
 let currentState: GameState | null = null;
 let history: GameState[] = [];
@@ -70,7 +70,18 @@ function showWin(): void {
   dialog.style.display = 'flex';
 }
 
+const RESIZE_DEBOUNCE_MS = 150;
+
 initUI(handleMove, handleDeal, handleUndo, handleNewGame);
+
+let resizeTimer: ReturnType<typeof setTimeout> | undefined;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    computeAndSetCardSize();
+    if (currentState) renderGame(currentState);
+  }, RESIZE_DEBOUNCE_MS);
+});
 
 document.querySelectorAll<HTMLButtonElement>('[data-difficulty]').forEach(btn => {
   btn.addEventListener('click', () => {
