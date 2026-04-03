@@ -245,6 +245,7 @@ body {
   gap: 12px;
   width: calc(var(--card-width) + 8px);
   flex-shrink: 0;
+  order: 1;
 }
 
 #stock-pile {
@@ -425,7 +426,29 @@ body {
     font-size: 0.65rem;
   }
 
+  #game-area {
+    flex-direction: column;
+    padding: 6px;
+    gap: 6px;
+  }
+
+  #side-panel {
+    flex-direction: row;
+    width: 100%;
+    gap: 6px;
+    align-items: flex-start;
+  }
+
+  #foundation-area {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: none;
+    flex: 1;
+    gap: 3px;
+  }
+
   #tableau {
     gap: 4px;
+    min-height: 0;
   }
 }
