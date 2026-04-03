@@ -10,7 +10,6 @@
   --table-dark: #054d1a;
   --header-bg: #043d15;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -138,6 +137,7 @@ body {
   flex: 1;
   overflow-x: auto;
   overflow-y: auto;
+  scrollbar-gutter: stable;
   align-items: flex-start;
   padding-bottom: 8px;
 }
@@ -220,22 +220,36 @@ body {
 }
 
 .card-rank {
-  font-size: 0.8rem;
+  font-size: calc(var(--card-width) * 0.22);
   font-weight: bold;
   line-height: 1;
 }
 
 .card-suit-small {
-  font-size: 0.65rem;
+  font-size: calc(var(--card-width) * 0.18);
   line-height: 1;
 }
 
-.card-center {
+.card-center-area {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  gap: 1px;
+}
+
+.card-center-rank {
+  font-size: calc(var(--card-width) * 0.45);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.card-center-suit {
+  font-size: calc(var(--card-width) * 0.38);
   line-height: 1;
 }
 
@@ -401,14 +415,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  :root {
-    --card-width: 52px;
-    --card-height: 73px;
-    --card-radius: 5px;
-    --overlap-facedown: 14px;
-    --overlap-faceup: 20px;
-  }
-
   #game-header {
     padding: 6px 10px;
   }
@@ -416,14 +422,6 @@ body {
   .stats {
     gap: 10px;
     font-size: 0.8rem;
-  }
-
-  .card-center {
-    font-size: 1.2rem;
-  }
-
-  .card-rank {
-    font-size: 0.65rem;
   }
 
   #game-area {

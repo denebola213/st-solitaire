@@ -47,6 +47,36 @@ function getCSSInt(varName: string, fallback: number): number {
   return parseInt(getComputedStyle(document.documentElement).getPropertyValue(varName).trim()) || fallback;
 }
 
+export function computeAndSetCardSize(): void {
+  const root = document.documentElement;
+  const vw = root.clientWidth || window.innerWidth;
+  const isMobile = vw <= 768;
+  const minLegibleCardWidth = 28;
+
+  let cardWidth: number;
+  if (isMobile) {
+    // Column layout: side panel on top, tableau fills full width.
+    // Padding: 6px each side = 12px; gaps between 10 cols = 9 * 4px = 36px
+    const maxMobileCardWidth = Math.max(1, Math.floor((vw - 48) / 10));
+    // Keep 10 columns visible on narrow screens; only enforce the minimum
+    // when it does not cause the tableau to overflow horizontally.
+    cardWidth = Math.min(minLegibleCardWidth, maxMobileCardWidth);
+  } else {
+    // Row layout: side-panel (card-width + 8px) + gap 12px + tableau (10*card-width + 9*6px) + padding 24px
+    // total = 11 * card-width + 98  =>  card-width = (vw - 98) / 11
+    cardWidth = Math.min(80, Math.floor((vw - 98) / 11)); // cap at original desktop size (80px)
+    cardWidth = Math.max(cardWidth, minLegibleCardWidth); // minimum to keep card content legible
+  }
+  const cardHeight = Math.round(cardWidth * 1.4);
+  const overlapFaceDown = Math.round(cardWidth * 0.225);
+  const overlapFaceUp = Math.round(cardWidth * 0.35);
+
+  root.style.setProperty('--card-width', `${cardWidth}px`);
+  root.style.setProperty('--card-height', `${cardHeight}px`);
+  root.style.setProperty('--overlap-facedown', `${overlapFaceDown}px`);
+  root.style.setProperty('--overlap-faceup', `${overlapFaceUp}px`);
+}
+
 function computeColumnHeight(col: Card[]): number {
   if (col.length === 0) return getCSSInt('--card-height', 112);
   const overlapFaceDown = getCSSInt('--overlap-facedown', 18);
@@ -101,7 +131,10 @@ function buildCardElement(card: Card, colIdx: number, cardIdx: number): HTMLElem
       <div class="card-rank">${rankStr}</div>
       <div class="card-suit-small">${symbol}</div>
     </div>
-    <div class="card-center">${symbol}</div>
+    <div class="card-center-area">
+      <div class="card-center-rank">${rankStr}</div>
+      <div class="card-center-suit">${symbol}</div>
+    </div>
     <div class="card-corner bottom-right">
       <div class="card-rank">${rankStr}</div>
       <div class="card-suit-small">${symbol}</div>
@@ -207,6 +240,8 @@ export function initUI(
   onNewGame: SimpleCallback
 ): void {
   onMoveCallback = onMove;
+
+  computeAndSetCardSize();
 
   document.addEventListener('mousemove', onPointerMove);
   document.addEventListener('mouseup', onPointerUp);
