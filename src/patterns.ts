@@ -1,16 +1,10 @@
 import type { Difficulty, Pattern } from './types';
+import { generatePattern } from './generatePattern';
 
-export async function loadPatterns(difficulty: Difficulty): Promise<Pattern[]> {
-  const response = await fetch(`./patterns/${difficulty}.json`);
-  if (!response.ok) throw new Error(`Failed to load patterns for ${difficulty}`);
-  return response.json();
-}
+/** パターンIDの生成に使うランダムインデックスの上限値 */
+const PATTERN_INDEX_RANGE = 1_000_000;
 
-export async function getRandomPattern(difficulty: Difficulty): Promise<Pattern> {
-  const patterns = await loadPatterns(difficulty);
-  if (patterns.length === 0) {
-    throw new Error(`No patterns available for difficulty: ${difficulty}`);
-  }
-  const idx = Math.floor(Math.random() * patterns.length);
-  return patterns[idx];
+export function getRandomPattern(difficulty: Difficulty): Pattern {
+  const index = Math.floor(Math.random() * PATTERN_INDEX_RANGE);
+  return generatePattern(difficulty, index);
 }
